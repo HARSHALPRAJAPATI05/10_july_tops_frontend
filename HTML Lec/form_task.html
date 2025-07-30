@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#d5dbdb">
+    <H1 align="center">Student Registration Form</H1> <br>
+    <form method="post">
+        <table align="center">
+            <tr>
+                <td>Roll no. :</td>
+                <td><input type="text" name="roll_no"></td>
+            </tr>
+            <tr>
+                <td><br>Student Name :</td>
+                <td><br>
+                    <input type="text" name="firstname" placeholder="First Name">
+                    -
+                    <input type="text" name="lastname" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td><br>Father's Name :</td>
+                <td><br><input type="text" name="fathername"></td>
+            </tr>
+            <tr>
+                <td><br>Date of birth :
+                <td><br><input type="date"> <i>(DD-MM-YYYY)</i></td>
+            </td>
+            </tr>
+
+            <tr>
+                <td><br>
+                    Mobile No. :
+                </td>
+                <td><br>
+                    <input type="text" name="countrycode" value="+91" size="3" readonly> - 
+                    <input type="tel" name="mobileno" size="10" pattern="[0-9]{10}" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td><br>Email id :</td>
+                <td><br>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td><br>Password : </td>
+                <td>
+                    <input type="password" name="pswd">
+                </td>
+            </tr>
+
+            <tr>
+                <td><br>Gender :</td>
+                <td><br>
+                    <input type="radio" name="gender" value="male">Male 
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><br>Department :</td>
+                <td><br>
+                    <input type="checkbox" name="department" value="CSE">CSE
+                    <input type="checkbox" name="department" value="IT">IT
+                    <input type="checkbox" name="department" value="ECE">ECE
+                    <input type="checkbox" name="department" value="Civil">Civil
+                    <input type="checkbox" name="department" value="Mech">Mech
+                </td>
+            </tr>
+
+            <tr>
+                <td><br>Course :</td>
+                <td><br>
+                    <select name="course">
+                        <option>----------------------Select Current Courses----------------------</option>
+                        <option align="center">Course 1</option>
+                        <option align="center">Course 2</option>
+                        <option align="center">Course 3</option>
+                        <option align="center">Course 4</option>
+                        <option align="center">Course 5</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><br>Student Photo :</td>
+                <td><br><input type="file" name="photo"></td>
+            </tr>
+
+            <tr>
+                <td><br>City :</td>
+                <td>
+                    <input type="text" name="city">
+                </td>
+            </tr>
+
+            <tr>
+                <td><br>Address:</td>
+                <td><br>
+                <textarea name="address" rows="5" cols="47"></textarea></td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2"><br>
+                    <button type="submit" value="Register">Submit</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>

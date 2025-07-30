@@ -1,0 +1,24 @@
+/* h3{
+    color: cadetblue;
+} *
+
+/* Using Id Selector */
+#headingOne{
+    color: royalblue;
+}
+#headingTwo{
+    color: darksalmon;
+}
+
+/* Using Class selector */
+.myClass{
+    color: darkslategrey;
+}
+button{
+    background-color: rgb(51, 177, 79);
+    color: white;
+    /* padding: 10px 20px;
+    border: none;
+    border-radius: 5px; */
+    cursor: pointer;
+}
